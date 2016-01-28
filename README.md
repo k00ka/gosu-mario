@@ -6,6 +6,17 @@ The speed-sprint project can be found here: https://github.com/k00ka/speed-sprin
 
 # User Stories
 1. Add scoring + create a new level for testing and “contribution to greater good”
+
+  Why collect rubies if they aren't worth anything? Users should get a score for collecting rubies. Design a new level, maybe something the dev team can use down the road.
+
 2. A level “exit” that opens when a level is complete and leads to a series of levels
+
+  Our levels need a purpose. Create an 'exit' for the level that will open once some task has been accomplished. Obviously, once you exit the level, you should appear in a new one.
+
 3. Add three lives + tiles that kill you + create a new level for testing
+
+  The game needs more challenges. The player should have a number of lives and should be able to die. Also create some tiles (maybe fire, spikes, or rusty spoons?) that can kill the player. Add a new level where a player will face these new challenges.
+
 4. Tiles that move
+
+  Levels need more excitement. Create some moving tiles, so the levels have greater difficulty. Create a new level that features these moving tiles.
