@@ -22,3 +22,7 @@ The speed-sprint project can be found here: https://github.com/k00ka/speed-sprin
 4. Tiles that move
 
   Levels need more excitement. Create some moving tiles, so the levels have greater difficulty. Create a new level that features these moving tiles.
+
+TEAM #2:
+
+Exit sill needs to be added look for this code ```if @maps.gems.count == 0```
