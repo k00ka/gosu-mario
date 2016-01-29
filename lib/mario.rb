@@ -35,6 +35,7 @@ WIDTH, HEIGHT = 600, 600
 module Tiles
   Grass = 0
   Earth = 1
+  Door  = 2
 end
 
 class CollectibleGem
@@ -213,6 +214,7 @@ class Mario < Gosu::Window
     @cptn.update(move_x)
     # Adds the number of gems collected to @score
     @score += @cptn.collect_gems(@map.gems)
+
     # Scrolling follows player
     @camera_x = [[@cptn.x - WIDTH / 2, 0].max, @map.width * 50 - WIDTH].min
     @camera_y = [[@cptn.y - HEIGHT / 2, 0].max, @map.height * 50 - HEIGHT].min
@@ -227,6 +229,9 @@ class Mario < Gosu::Window
     # Display score on screen
     gem_img = Gosu::Image.new("media/gem.png")
     gem_img.draw_rot(100,50,0,0)
+
+     # if @gems.count == 0
+
     @score_display = Gosu::Image.from_text(": #{@score}" , 30)
     @score_display.draw_rot(150, 50, 0, 0)
   end
