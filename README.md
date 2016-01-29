@@ -9,6 +9,8 @@ The speed-sprint project can be found here: https://github.com/k00ka/speed-sprin
 
   Why collect rubies if they aren't worth anything? Users should get a score for collecting rubies. Design a new level, maybe something the dev team can use down the road.
 
+  Team #1: Finished. The game's physics seem fine. We added the ```@score``` variable (currently line 201) within the Mario class to keep track of gems collected. ```Player.collect_gems``` has been edited to do the score calculation on each draw. A score display was added up top.
+
 2. A level “exit” that opens when a level is complete and leads to a series of levels
 
   Our levels need a purpose. Create an 'exit' for the level that will open once some task has been accomplished. Obviously, once you exit the level, you should appear in a new one.
